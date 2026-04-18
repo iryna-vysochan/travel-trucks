@@ -1,0 +1,37 @@
+.header {
+  padding: 24px 64px;
+  border-bottom: 1px solid #f2f4f7;
+}
+
+.headerHome {
+  background-color: #fff;
+}
+
+.headerDark {
+  background-color: #f7f7f7;
+}
+
+.nav {
+  display: flex;
+  gap: 450px;
+  align-items: center;
+}
+
+.link {
+  font-size: 16px;
+  font-weight: 500;
+  color: #6c717b;
+  text-decoration: none;
+  transition: color 0.2s;
+}
+
+.list {
+  display: flex;
+  gap: 32px;
+  align-items: center;
+}
+
+.link:hover,
+.linkActive {
+  color: #829b91;
+}

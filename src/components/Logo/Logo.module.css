@@ -1,0 +1,18 @@
+.link {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 4px 0;
+  transition: opacity 150ms ease-in-out;
+}
+
+.link img {
+  width: 136px;
+  height: 16px;
+}
+
+.link:hover,
+.link:focus,
+.link:active {
+  opacity: 0.7;
+}

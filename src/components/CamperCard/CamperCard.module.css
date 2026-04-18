@@ -1,0 +1,93 @@
+.card {
+  display: flex;
+  gap: 24px;
+  padding: 24px;
+  background-color: #f7f7f7;
+  border-radius: 20px;
+  list-style: none;
+}
+
+.imageWrapper {
+  position: relative;
+  width: 290px;
+  height: 310px;
+  flex-shrink: 0;
+  border-radius: 10px;
+  overflow: hidden;
+}
+
+.image {
+  object-fit: cover;
+}
+
+.content {
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+  flex: 1;
+}
+
+.header {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+}
+
+.name {
+  font-size: 24px;
+  font-weight: 600;
+  color: var(--color-text-primary);
+  max-width: 340px;
+}
+
+.price {
+  font-size: 24px;
+  font-weight: 600;
+  color: var(--color-text-primary);
+  white-space: nowrap;
+}
+
+.meta {
+  display: flex;
+  gap: 16px;
+}
+
+.rating,
+.location {
+  display: flex;
+  align-items: center;
+  gap: 4px;
+  font-size: 16px;
+  color: var(--color-text-primary);
+}
+
+.description {
+  font-size: 16px;
+  color: var(--color-text-secondary);
+  line-height: 1.5;
+}
+
+.features {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 8px;
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+.feature {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  padding: 8px 16px;
+  background-color: var(--color-bg-secondary);
+  border-radius: 100px;
+  font-size: 16px;
+  font-weight: 500;
+  color: var(--color-text-primary);
+}
+
+.btnWrapper {
+  display: flex;
+}

@@ -1,0 +1,49 @@
+.page {
+  padding: 60px 0;
+}
+
+.layout {
+  display: flex;
+  gap: 32px;
+  align-items: flex-start;
+}
+
+.sidebar {
+  width: 360px;
+  flex-shrink: 0;
+}
+
+.content {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  gap: 32px;
+}
+
+.list {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+  display: flex;
+  flex-direction: column;
+  gap: 32px;
+}
+
+.loadMore {
+  align-self: center;
+  padding: 14px 40px;
+  background-color: transparent;
+  color: #101828;
+  border: 1px solid #dadde1;
+  border-radius: 200px;
+  font-size: 16px;
+  font-weight: 500;
+  cursor: pointer;
+  transition:
+    background-color 0.2s,
+    color 0.2s;
+}
+
+.loadMore:hover {
+  border-color: #6d7b75;
+}
